@@ -92,7 +92,7 @@ section.conteudo{
 #texto p{
 	font-family: "black coffe shadow",sans-serif;
 	font-size: 1.5vw;
-	color: white;
+	color: black;
 }
 section.link{
 	width: 90vw;
@@ -146,4 +146,34 @@ section.mapa{
 section.mapa iframe{
 	width: 60%;
 	height: 100%;
+}
+section.bts{
+	width: 90vw;
+	height: 60vh;
+	background-color: rgb(181,170,229,0.5);
+	flex-direction: row;
+	margin-left: 5vw;
+	text-align: center;
+}
+#outrotexto{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	height: 100%;
+	width: 50%;
+}
+#outrotexto p{
+	font-family: "black coffe shadow",sans-serif;
+	font-size: 1.5vw;
+	color: black;
+	
+}
+#outra{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	height: 100%;
+	width: 30%;
 }
